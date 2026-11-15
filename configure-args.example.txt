@@ -1,0 +1,9 @@
+# Example only: these flags are NOT a complete replacement for an existing server.
+# The tool substitutes its own --prefix and --with-apxs2 values.
+# Review `php-config --configure-options` and extension requirements before use.
+--with-openssl
+--with-zlib
+--with-curl
+--enable-mbstring
+--with-mysqli=mysqlnd
+--with-pdo-mysql=mysqlnd
